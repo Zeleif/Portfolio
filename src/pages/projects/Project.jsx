@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import projectData from '../../data/project_data.json';
 import ScrollDownButton from '../../components/scroll/ScrollDownButton';
 import ScrollUpButton from '../../components/scroll/ScrollUpButton';
 
@@ -33,11 +34,9 @@ const Projects = () => {
   const [projectsData, setProjectsData] = useState([]);
 
   useEffect(() => {
-    fetch('/data/project_data.json')
-      .then(response => response.json())
-      .then(data => setProjectsData(data))
-      .catch(error => console.error('Error fetching projects data:', error));
+    setProjectsData(projectData);
   }, []);
+
 
 
   return (
