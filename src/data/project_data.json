@@ -2,7 +2,7 @@
   {
     "title": "OhMyFood",
     "description": "Développer un site 'mobile first' qui répertorie les menus de restaurants gastronomiques.",
-    "image": "assets/ohmyfood.webp",
+    "image": "/ohmyfood.webp",
     "additionalInfo": {
       "language": "HTML, CSS, JavaScript",
       "github": "https://github.com/Zeleif/Oh-My-Food"
@@ -11,7 +11,7 @@
   {
     "title": "Sophie Bluel",
     "description": "Créez une page web dynamique avec JavaScript",
-    "image": "assets/sophie.webp",
+    "image": "/sophie.webp",
     "additionalInfo": {
       "language": "JavaScript, HTML, CSS",
       "github": "https://github.com/Zeleif/Portfolio-architecte-sophie-bluel"
@@ -20,7 +20,7 @@
   {
     "title": "KASA",
     "description": "Créez une application web de location immobilière avec React",
-    "image": "assets/kasa.webp",
+    "image": "/kasa.webp",
     "additionalInfo": {
       "language": "JavaScript, React, HTML, CSS",
       "github": "https://github.com/Zeleif/kasa-project"
