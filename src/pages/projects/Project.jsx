@@ -17,7 +17,7 @@ const ProjectCard = ({ title, description, image, additionalInfo }) => {
     <div className={`project-card ${isFlipped ? 'flipped' : ''}`} onClick={handleFlip}>
       <div className="card front">
         <h3>{title}</h3>
-        <img src={`/assets/${image}`} alt={`Image for ${title}`} />
+        <img src={`/assets/img/${image}`} alt={`Image for ${title}`} />
         <p>{description}</p>
       </div>
       <div className="card back">
