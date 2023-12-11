@@ -1,0 +1,27 @@
+
+.home-container {
+  background-color: $background;
+   color: $text;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      color: $accent;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.5rem;
+      line-height: 1.6;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  }

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Project12/static/css/main.1fb3fd8d.css",
+    "main.js": "/Project12/static/js/main.15b6966c.js",
+    "static/media/montagne.jpg": "/Project12/static/media/montagne.85d66d2b4d25741f1a68.jpg",
+    "static/media/nuage.jpg": "/Project12/static/media/nuage.2e14ed2d36e10e6569ff.jpg",
+    "static/media/sea.webp": "/Project12/static/media/sea.a1177fb472e79e247f04.webp",
+    "index.html": "/Project12/index.html",
+    "main.1fb3fd8d.css.map": "/Project12/static/css/main.1fb3fd8d.css.map",
+    "main.15b6966c.js.map": "/Project12/static/js/main.15b6966c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fb3fd8d.css",
+    "static/js/main.15b6966c.js"
+  ]
+}

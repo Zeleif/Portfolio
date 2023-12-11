@@ -1,0 +1,28 @@
+.scroll-button {
+  cursor: pointer;
+  font-size: 24px;
+  color: #fff;
+  background-color: #36dce4;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #95dfe3;
+  }
+}
+
+.scroll-down-button {
+  bottom: 20px;
+  left: 50px;
+}
+
+.scroll-up-button {
+  bottom: 20px;
+  right: 50px;
+}

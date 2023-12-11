@@ -1,0 +1,99 @@
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('../../assets/img/nuage.jpg') center/cover no-repeat;
+}
+
+.projects-page {
+  position: relative;
+
+  h2.project-title {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+  }
+}
+
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.project-card {
+  position: relative;
+  width: 300px;
+  height: 450px;
+  perspective: 1000px;
+  cursor: pointer;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  border: solid #36dce4;
+  border-radius: 15px;
+  margin: 30px;
+
+  &:hover {
+    transform: rotateY(180deg);
+  }
+
+  &.flipped {
+    transform: rotateY(180deg);
+  }
+
+  .card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: $background;
+    color: $text;
+
+    img {
+      max-width: 90%;
+      height: 160px;
+      border: solid 1px #95dfe3;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      text-align: center;
+      color: #95dfe3;
+    }
+  }
+
+  .back {
+    transform: rotateY(180deg);
+    padding: 20px;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  a {
+    color: $accent;
+    text-decoration: none;
+    box-shadow: 0px -1px 12px 5px rgba(34, 230, 239, 0.85);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 6px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
