@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f0ccdd71.css",
+    "main.js": "/portfolio/static/js/main.ed914580.js",
+    "static/media/montagne.jpg": "/portfolio/static/media/montagne.85d66d2b4d25741f1a68.jpg",
+    "static/media/nuage.jpg": "/portfolio/static/media/nuage.2e14ed2d36e10e6569ff.jpg",
+    "static/media/sea.webp": "/portfolio/static/media/sea.a1177fb472e79e247f04.webp",
+    "index.html": "/portfolio/index.html",
+    "main.f0ccdd71.css.map": "/portfolio/static/css/main.f0ccdd71.css.map",
+    "main.ed914580.js.map": "/portfolio/static/js/main.ed914580.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0ccdd71.css",
+    "static/js/main.ed914580.js"
+  ]
+}
