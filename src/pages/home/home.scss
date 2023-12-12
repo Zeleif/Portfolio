@@ -9,6 +9,13 @@
   text-align: center;
   background-size: cover;
 
+  @media only screen and (max-width: 768px) {
+    background-position: bottom;
+    justify-content: flex-start;
+    gap: 75px;
+    padding: 10px;
+  }
+
   h1 {
     font-size: 3rem;
     font-weight: bold;

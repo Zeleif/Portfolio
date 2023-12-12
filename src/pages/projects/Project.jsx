@@ -46,6 +46,7 @@ const Projects = () => {
 
       <div className="projects-container">
         <h2 className="project-title">Mes Projets</h2>
+        <a className='my-lien' href="https://github.com/Zeleif?tab=repositories" target="_blank" rel="noopener noreferrer">Voir tous les projets sur GitHub</a>
         {projectsData.map((project, index) => (
           <ProjectCard key={index} {...project} />
         ))}

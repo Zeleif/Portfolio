@@ -1,9 +1,7 @@
 .scroll-button {
   cursor: pointer;
-  font-size: 24px;
-  color: #fff;
-  background-color: #36dce4;
-  border-radius: 50%;
+  font-size: 20px;
+  color: $accent;
   width: 30px;
   height: 30px;
   display: flex;
@@ -11,10 +9,12 @@
   justify-content: center;
   position: absolute;
   transition: background-color 0.3s ease;
+  bottom: 60px;
 
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 768px) {
     width: 25px;
     height: 25px;
+    bottom: 70px;
   }
 
   &:hover {
@@ -23,21 +23,17 @@
 }
 
 .scroll-down-button {
-  bottom: 20px;
   left: 50px;
 
   @media screen and (max-width: 450px) {
-    bottom: 32px;
     left: 30px;
   }
 }
 
 .scroll-up-button {
-  bottom: 20px;
   right: 50px;
 
   @media screen and (max-width: 450px) {
-    bottom: 32px;
     right: 30px;
   }
 }

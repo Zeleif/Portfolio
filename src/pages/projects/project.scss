@@ -6,10 +6,23 @@
   height: 100vh;
   background: url('../../assets/img/nuage.jpg') center/cover no-repeat;
 
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 768px) {
     flex-direction: column;
-    min-height: 100vh;
-    height: auto;
+  }
+
+  .my-lien {
+    position: absolute;
+    bottom: 180px;
+    color: $accent;
+    text-decoration: none;
+
+    @media screen and (max-width: 768px) {
+      position: static;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
@@ -18,9 +31,12 @@
 
   h2.project-title {
     margin-top: 20px;
+    position: absolute;
+    top: 100px;
 
-    @media screen and (max-width: 450px) {
+    @media screen and (max-width: 768px) {
       margin-top: 50px;
+      position: static;
     }
   }
 }
@@ -37,10 +53,8 @@
   border-radius: 15px;
   margin: 30px;
 
-  @media screen and (max-width: 450px) {
-    width: 280px;
-    height: 330px;
-    margin: 20px;
+  @media screen and (max-width: 768px) {
+    margin: 15px;
   }
 
   &:hover {
@@ -70,12 +84,22 @@
       height: 160px;
       border: solid 1px #95dfe3;
       border-radius: 10px;
-      margin-bottom: 20px;
+      padding: 10px;
+    }
+
+    h3 {
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
     }
 
     p {
       text-align: center;
-      color: #95dfe3;
+      color: $accent;
+      font-size: 20px;
+      padding: 5px;
+      line-height: 1.5;
+
     }
   }
 
@@ -93,7 +117,7 @@
     text-decoration: none;
     box-shadow: 0px -1px 12px 5px rgba(34, 230, 239, 0.85);
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 50px;
     padding: 6px;
 
     &:hover {
