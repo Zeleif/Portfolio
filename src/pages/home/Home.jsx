@@ -1,5 +1,5 @@
 
-import React, { useEffect } from 'react';
+import React from 'react';
 import bullesImage from '../../assets/img/montagne.jpg';
 import Navbar from '../../components/navbar/NavBar';
 import Snow from '../../components/snow/Snow';

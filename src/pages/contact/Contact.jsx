@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com';
 import Footer from '../../components/footer/Footer';
 import NavBar from '../../components/navbar/NavBar';
 
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
