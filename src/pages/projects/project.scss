@@ -5,26 +5,24 @@
   justify-content: center;
   height: 100vh;
   background: url('../../assets/img/nuage.jpg') center/cover no-repeat;
+
+  @media screen and (max-width: 450px) {
+    flex-direction: column;
+    min-height: 100vh;
+    height: auto;
+  }
 }
 
 .projects-page {
   position: relative;
 
   h2.project-title {
-    position: absolute;
-    top: 100px;
-    left: 0;
-    right: 0;
+    margin-top: 20px;
+
+    @media screen and (max-width: 450px) {
+      margin-top: 50px;
+    }
   }
-}
-
-
-.cards-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
 }
 
 .project-card {
@@ -38,6 +36,12 @@
   border: solid #36dce4;
   border-radius: 15px;
   margin: 30px;
+
+  @media screen and (max-width: 450px) {
+    width: 280px;
+    height: 330px;
+    margin: 20px;
+  }
 
   &:hover {
     transform: rotateY(180deg);

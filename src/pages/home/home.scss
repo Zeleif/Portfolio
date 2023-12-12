@@ -1,7 +1,6 @@
-
 .home-container {
   background-color: $background;
-   color: $text;
+  color: $text;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -10,18 +9,30 @@
   text-align: center;
   background-size: cover;
 
-    h1 {
-      font-size: 3rem;
-      font-weight: bold;
-      margin-bottom: 0.5rem;
-      color: $accent;
-      text-align: center;
-    }
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: $accent;
+    text-align: center;
 
-    p {
-      font-size: 1.5rem;
-      line-height: 1.6;
-      max-width: 600px;
-      margin: 0 auto;
+    @media screen and (max-width: 450px) {
+      font-size: 2rem;
     }
   }
+
+  p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+
+    @media screen and (max-width: 450px) {
+      font-size: 18px;
+      font-weight: 600;
+      width: 90%;
+
+    }
+  }
+
+}

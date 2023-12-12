@@ -17,7 +17,7 @@ const ProjectCard = ({ title, description, image, additionalInfo }) => {
     <div className={`project-card ${isFlipped ? 'flipped' : ''}`} onClick={handleFlip}>
       <div className="card front">
         <h3>{title}</h3>
-        <img src={`/assets/img/${image}`} alt={`Image for ${title}`} />
+        <img src={`${process.env.PUBLIC_URL}/assets/img/${image}`} alt={`title`} />
         <p>{description}</p>
       </div>
       <div className="card back">
@@ -44,8 +44,8 @@ const Projects = () => {
       <ScrollUpButton targetSection="about" />
       <ScrollDownButton targetSection="contact" />
 
-      <h2 className="project-title">Mes Projets</h2>
       <div className="projects-container">
+        <h2 className="project-title">Mes Projets</h2>
         {projectsData.map((project, index) => (
           <ProjectCard key={index} {...project} />
         ))}
