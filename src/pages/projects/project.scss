@@ -39,6 +39,10 @@
       position: static;
     }
   }
+
+  @media screen and (max-width: 450px) {
+    margin-top: 10px;
+  }
 }
 
 .project-card {
@@ -99,6 +103,11 @@
       font-size: 20px;
       padding: 5px;
       line-height: 1.5;
+
+      @media screen and (max-width: 450px) {
+        font-size: 16px;
+        padding: 0;
+      }
 
     }
   }
