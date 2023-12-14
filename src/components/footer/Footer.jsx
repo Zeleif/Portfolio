@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <p>&copy; 2023 Sylvie</p>
-      <a href="/cv/cv.pdf" download="cv.pdf">
+      <a href="public/cv/cv.pdf" download="cv.pdf">
         <button>Télécharger mon CV</button>
       </a>
     </footer>
