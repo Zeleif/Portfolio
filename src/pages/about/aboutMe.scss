@@ -18,6 +18,10 @@ body {
   justify-content: center;
   min-height: 100vh;
   margin-bottom: 6px;
+
+  @media only screen and (max-width: 450px) {
+    gap: 10px
+  }
 }
 
 .blockA {
@@ -87,6 +91,10 @@ h2 {
   margin-bottom: 20px;
   text-align: center;
   color: $accent;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 2rem;
+  }
 }
 
 h3 {
@@ -95,6 +103,10 @@ h3 {
   text-align: center;
   color: $accent;
   animation: bounce 1.5s infinite alternate;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 1.5em;
+  }
 
 }
 
